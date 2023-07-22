@@ -3,7 +3,7 @@
 Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on experience to get job-ready in less than 5 months. No prior experience required.
 
 ## Hands-On Labs
-1. ETL using Shell Scripts
+1. [ETL using Shell Scripts](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/ETL-using-shell-scripts)
 
 ## Applied Learning Project
 
