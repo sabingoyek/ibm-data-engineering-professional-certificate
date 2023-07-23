@@ -1,6 +1,6 @@
 # [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer)
 
-Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on experience to get job-ready in less than 5 months. No prior experience required.
+Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on experience to get job-ready.
 
 ## Hands-On Labs
 1. [ETL using Shell Scripts](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/ETL-using-shell-scripts)
