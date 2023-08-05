@@ -4,9 +4,9 @@ Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on 
 
 ## Hands-On Labs
 1. [ETL using Shell Scripts](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/ETL-using-shell-scripts)
-2. [Hands-on Lab: Getting Started with Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/getting_started_with_apache_airflow)
-3. [Hands-on Lab: Create a DAG for Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_a_DAG_for_apache_airflow)
-4. [Hands-on Lab: Create and execute a Shell script from Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_and_execute_shell_script_from_airflow)
+2. [Getting Started with Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/getting_started_with_apache_airflow)
+3. [Create a DAG for Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_a_DAG_for_apache_airflow)
+4. [Create and execute a Shell script from Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_and_execute_shell_script_from_airflow)
 
 ## Applied Learning Project
 
