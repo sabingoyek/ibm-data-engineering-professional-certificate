@@ -12,9 +12,9 @@ Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on 
 
 1. Design a relational database to help a coffee franchise improve operations.
 2. Use SQL to query census, crime, and school demographic data sets.
-3. Write a Bash shell script on Linux that backups changed files.
+3. [Write a Bash shell script on Linux that backups changed files](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/projects/automate_pwd_backup)
 4. Set up, test, and optimize a data platform that contains MySQL, PostgreSQL, and IBM Db2 databases.
-5. [Analyze road traffic data to perform ETL and create a pipeline using Airflow and Kafka](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/etl-road-traffic/)
+5. [Analyze road traffic data to perform ETL and create a pipeline using Airflow and Kafka](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/projects/etl-road-traffic/)
 6. Design and implement a data warehouse for a solid-waste management company.
 7. Move, query, and analyze data in MongoDB, Cassandra, and Cloudant NoSQL databases.
 8. Train a machine learning model by creating an Apache Spark application.
