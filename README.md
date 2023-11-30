@@ -7,6 +7,7 @@ Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on 
 2. [Getting Started with Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/getting_started_with_apache_airflow)
 3. [Create a DAG for Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_a_DAG_for_apache_airflow)
 4. [Create and execute a Shell script from Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_and_execute_shell_script_from_airflow)
+5. [Web scraping and Extracting Data using APIs](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/web_scraping_and_extracting_data_using_api)
 
 ## Applied Learning Project
 
