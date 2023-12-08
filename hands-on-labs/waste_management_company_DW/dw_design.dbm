@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.9.4" use-changelog="false" last-position="0,0" last-zoom="1" max-obj-count="4"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="dw_design" is-template="false" allow-conns="true">
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="MyDimDate" layers="0" collapse-mode="2" max-obj-count="10" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="440" y="280"/>
+	<column name="dateid" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="day">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="weekday">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="weekdayname">
+		<type name="character varying" length="10"/>
+	</column>
+	<column name="month">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="monthname">
+		<type name="character varying" length="15"/>
+	</column>
+	<column name="quarter">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="quartername">
+		<type name="character" length="2"/>
+	</column>
+	<column name="year">
+		<type name="smallint" length="0"/>
+	</column>
+	<constraint name="MyDimDate_pk" type="pk-constr" table="public.&quot;MyDimDate&quot;">
+		<columns names="dateid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="MyDimWaste" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="860" y="60"/>
+	<column name="wasteid" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="wastetype">
+		<type name="character varying" length="20"/>
+	</column>
+	<column name="quantity">
+		<type name="smallint" length="0"/>
+	</column>
+	<constraint name="MyDimWaste_pk" type="pk-constr" table="public.&quot;MyDimWaste&quot;">
+		<columns names="wasteid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="MyDimZone" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1320" y="100"/>
+	<column name="zoneid" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="zonename">
+		<type name="character varying" length="50"/>
+	</column>
+	<column name="city">
+		<type name="character varying" length="50"/>
+	</column>
+	<constraint name="MyDimZone_pk" type="pk-constr" table="public.&quot;MyDimZone&quot;">
+		<columns names="zoneid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="MyFactTrips" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="916" y="349"/>
+	<column name="tripid" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="truckid">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="trucktype">
+		<type name="character varying" length="20"/>
+	</column>
+	<constraint name="MyFactTrips_pk" type="pk-constr" table="public.&quot;MyFactTrips&quot;">
+		<columns names="tripid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<relationship name="MyDimDate_has_many_MyFactTrips" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#5887ec"
+	 src-table="public.&quot;MyDimDate&quot;"
+	 dst-table="public.&quot;MyFactTrips&quot;"
+	 src-required="true" dst-required="false"/>
+
+<relationship name="MyDimZone_has_many_MyFactTrips" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#430cb6"
+	 src-table="public.&quot;MyDimZone&quot;"
+	 dst-table="public.&quot;MyFactTrips&quot;"
+	 src-required="true" dst-required="false"/>
+
+<relationship name="MyDimWaste_has_many_MyFactTrips" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#976048"
+	 src-table="public.&quot;MyDimWaste&quot;"
+	 dst-table="public.&quot;MyFactTrips&quot;"
+	 src-required="true" dst-required="false"/>
+
+</dbmodel>

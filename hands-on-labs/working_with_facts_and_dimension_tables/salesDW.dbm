@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.9.4" use-changelog="false" last-position="0,0" last-zoom="1" max-obj-count="4"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="SalesDW" is-template="false" allow-conns="true">
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="FactSales" layers="0" collapse-mode="2" max-obj-count="4" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="940" y="160"/>
+	<column name="id" not-null="true">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="totalesales">
+		<type name="smallint" length="0"/>
+	</column>
+	<constraint name="FactSales_pk" type="pk-constr" table="public.&quot;FactSales&quot;">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="DimDate" layers="0" collapse-mode="2" max-obj-count="10" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="480" y="280"/>
+	<column name="dateid" not-null="true">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="day">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="weekday">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="weekdayname">
+		<type name="character varying" length="15"/>
+	</column>
+	<column name="year">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="month">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="monthname">
+		<type name="character varying" length="20"/>
+	</column>
+	<column name="quarter">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="quartername">
+		<type name="character varying" length="20"/>
+	</column>
+	<constraint name="DimDate_pk" type="pk-constr" table="public.&quot;DimDate&quot;">
+		<columns names="dateid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="store" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1320" y="260"/>
+	<column name="storeid" not-null="true">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="city">
+		<type name="character varying" length="50"/>
+	</column>
+	<column name="country">
+		<type name="character varying" length="50"/>
+	</column>
+	<constraint name="store_pk" type="pk-constr" table="public.store">
+		<columns names="storeid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<relationship name="store_has_many_FactSales" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#31f6a2"
+	 src-table="public.store"
+	 dst-table="public.&quot;FactSales&quot;"
+	 src-required="true" dst-required="false"/>
+
+<relationship name="DimDate_has_many_FactSales" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#69d961"
+	 src-table="public.&quot;DimDate&quot;"
+	 dst-table="public.&quot;FactSales&quot;"
+	 src-required="true" dst-required="false"/>
+
+</dbmodel>
