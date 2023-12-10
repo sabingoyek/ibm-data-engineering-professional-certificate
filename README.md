@@ -13,19 +13,19 @@ Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on 
 
 ## Courses
 
-1-  Data Engineering and Machine Learning using Spark
-2-  Databases and SQL for Data Science with Python
-3-  Python for Data Science, AI & Development
-4-  Getting Started with Data Warehousing and BI Analytics
-5-  Introduction to Big Data with Spark and Hadoop
-6-  ETL and Data Pipelines with Shell, Airflow, and Kafka
-7-  Introduction to Relational Databases (RDBMS)
-8-  Python Project for Data Engineering
-9-  Data Engineering Capstone Project
-10- Relational Database Administration (DBA)
-11- Hands-on Introduction to Linux Commands and Shell Scripting
-12- Introduction to Data Engineering
-13- Introduction to NoSQL Databases
+1.  Data Engineering and Machine Learning using Spark
+2.  Databases and SQL for Data Science with Python
+3.  Python for Data Science, AI & Development
+4.  Getting Started with Data Warehousing and BI Analytics
+5.  Introduction to Big Data with Spark and Hadoop
+6.  ETL and Data Pipelines with Shell, Airflow, and Kafka
+7.  Introduction to Relational Databases (RDBMS)
+8.  Python Project for Data Engineering
+9.  Data Engineering Capstone Project
+10. Relational Database Administration (DBA)
+11. Hands-on Introduction to Linux Commands and Shell Scripting
+12. Introduction to Data Engineering
+13. Introduction to NoSQL Databases
 
 ## Hands-On Labs
 
