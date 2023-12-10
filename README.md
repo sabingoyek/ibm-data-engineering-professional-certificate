@@ -2,6 +2,31 @@
 
 Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on experience to get job-ready.
 
+## Skills acquired
+
+- Master the most up-to-date practical skills and knowledge data engineers use in their daily roles
+- Learn to create, design, & manage relational databases & apply database administration (DBA) concepts to RDBMSs such as MySQL, PostgreSQL, & IBM Db2 
+- Develop a working knowledge of NoSQL and Big Data using MongoDB, Cassandra, Cloudant, Hadoop, Apache Spark, Spark SQL, Spark ML, and Spark Streaming 
+- Implement ETL & Data Pipelines with Bash, Airflow & Kafka; architect, populate, deploy Data Warehouses; create BI reports & interactive dashboards 
+
+
+
+## Courses
+
+1-  Data Engineering and Machine Learning using Spark
+2-  Databases and SQL for Data Science with Python
+3-  Python for Data Science, AI & Development
+4-  Getting Started with Data Warehousing and BI Analytics
+5-  Introduction to Big Data with Spark and Hadoop
+6-  ETL and Data Pipelines with Shell, Airflow, and Kafka
+7-  Introduction to Relational Databases (RDBMS)
+8-  Python Project for Data Engineering
+9-  Data Engineering Capstone Project
+10- Relational Database Administration (DBA)
+11- Hands-on Introduction to Linux Commands and Shell Scripting
+12- Introduction to Data Engineering
+13- Introduction to NoSQL Databases
+
 ## Hands-On Labs
 
 1. [Accessing Databases Using Python Script](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/accessing_databases_using_python_script)
