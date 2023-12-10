@@ -3,26 +3,37 @@
 Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on experience to get job-ready.
 
 ## Hands-On Labs
-1. [ETL using Shell Scripts](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/ETL-using-shell-scripts)
-2. [Getting Started with Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/getting_started_with_apache_airflow)
-3. [Create a DAG for Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_a_DAG_for_apache_airflow)
-4. [Create and execute a Shell script from Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/create_and_execute_shell_script_from_airflow)
-5. [Web scraping and Extracting Data using APIs](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/web_scraping_and_extracting_data_using_api)
-6. [Accessing Databases using Python script](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/accessing_databases_using_python_script)
-7. [Extract, Transform, and Load Data using Python](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/etl_data_using_python)
-8. [Static Code Analysis](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/static_code_analysis)
-9. [Unit Testing](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/unit_testing)
-10. [Creating a Python Package](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/hands-on-labs/creating_python_package)
 
-## Applied Learning Project
+1. [Accessing Databases Using Python Script](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/accessing_databases_using_python_script)
+2. [Advanced Dashboard Capabilities In Cognos Analytics](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/advanced_dashboard_capabilities_in_cognos_analytics)
+3. [Automated Backup](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/automate_pwd_backup)
+4. [Create A Dag For Apache Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/create_a_DAG_for_apache_airflow)
+5. [Create And Execute Shell Script From Airflow](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/create_and_execute_shell_script_from_airflow)
+6. [Creating Python Package](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/creating_python_package)
+7. [Data Engineering Capstone Project](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/data_engineering_capstone_project)
+8. [Db Design and Implementation](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/db_design_implementation)
+9. [ETL for Road Traffic](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/etl-road-traffic)
+10. [ETL Using Shell Scripts](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/etl-using-shell-scripts)
+11. [ETL And ML](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/etl_and_ml)
+12. [ETL Using Python](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/etl_data_using_python)
+13. [ETL Project for GDP data](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/etl_project_gdp)
+14. [ETL on World Largest Bank Data](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/etl_world_largest_bank)
+15. [Kafka Message Key And Offset](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/kafka_message_key_and_offset)
+16. [Monitoring Dag](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/monitoring_DAG)
+17. [Nosql Database Final Project](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/nosql_database_final_project)
+18. [Populating Data Warehouse Using Postgresql](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/populating_DW_using_postgreSQL)
+19. [Querying Data Warehouse](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/querying_DW)
+20. [RDBA Project](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/rdba_project)
+21. [Setting Up Staging Area](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/setting_up_staging_area)
+22. [Static Code Analysis](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/static_code_analysis)
+23. [Unit Testing](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/unit_testing)
+24. [Verifying Data Quality For Data Warehouse](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/verifying_data_quality_for_DW)
+25. [Waste Management Company Data Warehouse](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/waste_management_company_DW)
+26. [Weather Forecasting ETL](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/weather_forecasting_etl)
+27. [Web Scraping And Extracting Data Using API](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/web_scraping_and_extracting_data_using_api)
+28. [Working With Facts And Dimension Tables](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/working_with_facts_and_dimension_tables)
+29. [Working With Real World Data Set](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/working_with_real_world_data_set)
+30. [Working With Streaming Data Using Kafka](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/working_with_streaming_data_using_kafka)
 
-1. Design a relational database to help a coffee franchise improve operations.
-2. Use SQL to query census, crime, and school demographic data sets.
-3. [Write a Bash shell script on Linux that backups changed files](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/projects/automate_pwd_backup)
-4. [Set up, test, and optimize a data platform that contains MySQL, PostgreSQL, and IBM Db2 databases](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/projects/rdba_project)
-5. [Analyze road traffic data to perform ETL and create a pipeline using Airflow and Kafka](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/projects/etl-road-traffic/)
-6. Design and implement a data warehouse for a solid-waste management company.
-7. [Move, query, and analyze data in MongoDB, Cassandra, and Cloudant NoSQL databases](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/projects/nosql_database_final_project)
-8. Train a machine learning model by creating an Apache Spark application.
-9. Design, deploy, and manage an end-to-end data engineering platform.
-10. [Extract, Transfrom and Load GDP Data](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/projects/etl_project_gdp)
+
+*Note: Some code in this repository are provided by the instructors of the course as a baseline*
