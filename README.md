@@ -27,7 +27,7 @@ Prepare for a career as a Data Engineer. Gain the in-demand skills and hands-on 
 12. Introduction to Data Engineering
 13. Introduction to NoSQL Databases
 
-## Hands-On Labs
+## Hands-On Labs and Projects
 
 1. [Accessing Databases Using Python Script](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/accessing_databases_using_python_script)
 2. [Advanced Dashboard Capabilities In Cognos Analytics](https://github.com/sabingoyek/ibm-data-engineering-professional-certificate/tree/main/advanced_dashboard_capabilities_in_cognos_analytics)
